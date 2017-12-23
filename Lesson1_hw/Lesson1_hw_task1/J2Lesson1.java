@@ -12,7 +12,7 @@ public class J2Lesson1 {
     public static void main(String[] args) {
         Courses cource = new Courses(new Obstacle[]{
                 new Track(50),
-                new Water(50),
+                new Water(20),
                 new Wall(2)});
         Team team = new Team("Animals", new Animal[]{
                 new Cat("Murzik"),
